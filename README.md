@@ -18,3 +18,7 @@ El usuario podrá ingresar nombres mediante un campo de texto. Al hacer clic en 
   <li><strong>Visualizar la Lista:</strong> Los nombres ingresados aparecerán en una lista debajo del campo de entrada.</li>
   <li><strong>Sorteo Aleatorio:</strong> Al hacer clic en el botón <strong>"Sortear Amigo",</strong> se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.</li>
 </ol>
+
+### Video de Demostración
+
+[![El video muestra el funcionamiemto de la aplicación](https://img.youtube.com/vi/)](https://www.youtube.com/watch?v=uN0sLHlSi7k)
