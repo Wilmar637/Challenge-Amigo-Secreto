@@ -78,6 +78,10 @@ function mostrarAmigoSecreto(){
     let li = document.createElement("li");   // Se crea un nuevo elemento <li> (elemento de lista) que se usará para mostrar el nombre del amigo secreto.
     li.textContent = `El amigo secreto es ${amigoSecreto}`;    // El contenido de texto del nuevo elemento <li> se establece en la variable amigoSecreto 
     resultado.appendChild(li);   // el nuevo elemento <li> se añade como hijo del elemento <ul> (resultado), actualizando así la lista visible en la página con el nombre del amigo secreto.
+    
+    // Codigo para ocultar la lista de amigos cuando se muestra el nombre del amigo secreto
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.style.display = "none"; // Oculta el elemento de la lista de amigos
 }
 
 
